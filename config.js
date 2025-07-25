@@ -4,11 +4,9 @@
 const CONFIG = {
 	// Basic Profile Information
 	profile: {
-		image: "https://profilie.github.io/media/logo.png",
-		name: "Profilie Starter Kit",
-		description: `A free pre-built templates for social profiles, portfolios & websites. Quickly create a sweet-looking website to highlight your social media presence.
-                  
-                  Customize your profile by visiting your <code>config.js</code> file in your own repository. You can also change this description to your desired one.`,
+		image: "https://hawk.is-a.dev/img/hawk.png",
+		name: "The Hawk",
+		description: "Hi! I’m The <strong>Hawk</strong>, a passionate developer, open-source lover, and lifelong learner. I thrive on turning creative ideas into real-world projects and exploring the endless possibilities of technology.",
 
     // You may change the footer of your profile but keeping it intact will be appreciated.
 		footer: "Powered by <a href='https://github.com/profilie/starter' target='_blank'>Profilie</a> - Free Templates for Social Profiles"
@@ -21,21 +19,21 @@ const CONFIG = {
 		// Popular Development Platforms
 		github: {
 			enabled: true,
-			url: "https://github.com/profilie",
+			url: "https://github.com/thealonehawk",
 			title: "GitHub"
 		},
 		gitlab: {
-			enabled: true,
+			enabled: false,
 			url: "https://gitlab.com/your-username",
 			title: "GitLab"
 		},
 		bitbucket: {
-			enabled: true,
+			enabled: false,
 			url: "https://bitbucket.org/your-username",
 			title: "Bitbucket"
 		},
 		codepen: {
-			enabled: true,
+			enabled: false,
 			url: "https://codepen.io/your-username",
 			title: "CodePen"
 		},
@@ -58,7 +56,7 @@ const CONFIG = {
 		},
 		email: {
 			enabled: true,
-			url: "mailto:profilie@harys.is-a.dev",
+			url: "mailto:thealonehawk@gmail.com",
 			title: "Email"
 		},
 		telegram: {
@@ -77,14 +75,14 @@ const CONFIG = {
 			title: "Signal"
 		},
 		skype: {
-			enabled: true,
+			enabled: false,
 			url: "skype:YOUR_SKYPE_USERNAME?chat",
 			title: "Skype"
 		},
 
 		// Social Media Platforms
 		reddit: {
-			enabled: true,
+			enabled: false,
 			url: "https://reddit.com/user/your-username/",
 			title: "Reddit"
 		},
@@ -109,7 +107,7 @@ const CONFIG = {
 			title: "TikTok"
 		},
 		snapchat: {
-			enabled: true,
+			enabled: false,
 			url: "https://snapchat.com/add/your-username",
 			title: "Snapchat"
 		},
@@ -131,7 +129,7 @@ const CONFIG = {
 
 		// Professional Networks
 		linkedin: {
-			enabled: true,
+			enabled: false,
 			url: "https://linkedin.com/in/your-username",
 			title: "LinkedIn"
 		},
@@ -272,8 +270,8 @@ const CONFIG = {
 		// Personal Website/Portfolio
 		website: {
 			enabled: true,
-			url: "https://profilie.github.io/",
-			title: "Profilie"
+			url: "https://hawk.is-a.dev/",
+			title: "Website"
 		}
 	}
 };
